@@ -340,13 +340,17 @@
 
   M.push({ g:'c', kind:'Brief', name:'00 · Start here', time:'17:00', html: `
     <div class="rt-eyebrow">Two-day assessment · Day 1</div>
-    <h1 class="rt-h1">You are going to learn the recruiting stack, and then you are going to be tested on it tonight.</h1>
-    <p class="rt-lede">This console runs your shift from 5:00 PM to midnight. Eight learning modules, six live drills, one hand-in. Nothing here is graded on memory. Everything here is graded on how you think out loud.</p>
+    <h1 class="rt-h1">Tonight you will learn how recruiting technology works, and then you will use it</h1>
+    <p class="rt-lede">This page runs your shift from 5:00 PM to midnight. Eight short lessons, six practical drills, then you send your work to Rubab. Nothing is marked on memory. Everything is marked on how you think and how you explain.</p>
 
-    <div class="rt-pull">
-    <span class="lbl">Read this once, properly</span>
-    This assessment is designed to identify which candidate is the best fit for the Recruitment Technology &amp; Tools Consultant track based on communication, analytical thinking, learning agility, and client-facing potential. Answer honestly and focus on demonstrating how you think rather than what you already know.
-</div>
+    <div class="rt-card">
+      <h4>Before anything else</h4>
+      <p>If you see a word tonight that you do not know, <strong>ask Rubab</strong>. Nobody loses a single mark for asking what a word means. People do lose marks for pretending to understand — because on a real call, pretending is the one mistake a client never forgives.</p>
+    </div>
+
+    <div class="rt-pull"><span class="lbl">Read this once, properly</span>
+      One of you will take the Recruitment Technology &amp; Tools Consultant track. The other stays on the delivery side. <strong>Neither outcome is a demotion.</strong> The track is not a promotion — it is a different set of problems, most of which happen live, on a call, with a client who is annoyed. If that sounds bad to you, say so tonight. That is a legitimate answer and it costs you nothing.
+    </div>
 
     <h2 class="rt-h2">What is actually being measured</h2>
     <p>Not what you know. You have both been here five minutes; you know nothing yet, and whatever you memorised over the weekend is noise. What is being measured is <strong>the speed at which you turn unfamiliar technical material into language a client can act on</strong> — while someone interrupts you.</p>
@@ -356,6 +360,24 @@
       <li><strong>Can you learn a product in twenty minutes and find its weaknesses?</strong> Anyone can read a marketing site. Naming what a tool is <em>bad</em> at is what earns trust.</li>
       <li><strong>Can you hold a room where two people disagree?</strong> That is most client meetings.</li>
     </ul>
+
+    <h2 class="rt-h2">Words you will see tonight</h2>
+    <p>These come up again and again. You do not need to memorise them — they are explained properly in the modules.</p>
+    <table class="rt-table">
+      <tr><th>Word</th><th>What it means</th></tr>
+      <tr><td>Client</td><td>The recruitment company that pays us. Usually the owner or a manager.</td></tr>
+      <tr><td>ATS</td><td>Applicant Tracking System. Software that tracks candidates through a job.</td></tr>
+      <tr><td>CRM</td><td>Customer Relationship Management. Software that remembers people and companies over time.</td></tr>
+      <tr><td>Sourcing</td><td>Finding candidates who are not applying and do not know you exist.</td></tr>
+      <tr><td>Outreach</td><td>The messages you send those candidates.</td></tr>
+      <tr><td>Objection</td><td>When a client tells you why they do not want it, or do not believe you.</td></tr>
+      <tr><td>Discovery call</td><td>The first call, where you only ask questions and find out what is really wrong.</td></tr>
+      <tr><td>Adoption</td><td>Whether the staff actually use the software the company paid for.</td></tr>
+      <tr><td>Time-to-fill</td><td>How many days it takes to fill a job. Clients care about this a lot.</td></tr>
+      <tr><td>Stack</td><td>All the tools a company uses together.</td></tr>
+      <tr><td>Vendor</td><td>The company that makes and sells the software.</td></tr>
+      <tr><td>Consultative</td><td>Understanding the problem before suggesting anything. The opposite of selling.</td></tr>
+    </table>
 
     <h2 class="rt-h2">The shift</h2>
     <table class="rt-table">
@@ -393,8 +415,8 @@
   /* ---------- 01 ---------- */
   M.push({ g:'a', kind:'Module', name:'01 · The stack', time:'17:15', html: `
     <div class="rt-eyebrow">Module 01 · Foundations</div>
-    <h1 class="rt-h1">The stack is six layers. Every tool you will ever be asked about sits in one of them.</h1>
-    <p class="rt-lede">Learn the layers, not the logos. Logos change every eighteen months. The layers have not changed in twenty years, and a client who hears you describe the layers assumes — correctly — that you understand their business rather than a price list.</p>
+    <h1 class="rt-h1">Every recruiting tool does one of six jobs</h1>
+    <p class="rt-lede">Learn the six jobs, not the brand names. Brand names change every year or two. The six jobs have not changed in twenty years. A client who hears you explain the jobs will believe you understand their business — not just a price list.</p>
 
     <div class="rt-layers">
       <div class="rt-layer"><span class="n">01</span><span class="l">Record<span>The single place a person, a company, and a job live. The system of truth.</span></span><span class="tools">Bullhorn · Crelate · PCRecruiter · Big Biller · Loxo</span></div>
@@ -425,7 +447,7 @@
     <div class="rt-do" data-mcq='1'>
       <div class="rt-do-head"><span class="tag">Check</span><span class="ttl">Knowledge check 01</span></div>
       <div class="rt-do-body" data-q="m1"
-        data-question="A client says: “Our time-to-fill has gone from 28 to 41 days. We need a better ATS.“ What is the strongest first move?"
+        data-question="A client says: “Our time-to-fill has gone from 28 to 41 days. We need a better ATS.” What is the strongest first move?"
         data-options='["Agree, and propose migrating them from PCRecruiter to Loxo.","Ask where in their process the extra 13 days are actually being spent.","Explain the technical differences between the two ATS platforms.","Tell them 41 days is normal for their sector so they should not worry."]'
         data-answer="1"
         data-why="The client has handed you a symptom and a diagnosis in the same breath — and the diagnosis is theirs, not yours. Thirteen days could be sitting in client feedback delay, in an approval chain, in interview scheduling, or in candidates ghosting at offer. None of those are fixed by an ATS. Answer 1 is the only one that finds the layer before naming the tool. Answer 3 is the classic beginner trap: correct information, wrong moment, and it signals you sell software rather than diagnose businesses."></div>
@@ -434,8 +456,8 @@
   /* ---------- 02 ---------- */
   M.push({ g:'a', kind:'Module', name:'02 · ATS vs CRM', time:'17:30', html: `
     <div class="rt-eyebrow">Module 02 · Layer 01, Record</div>
-    <h1 class="rt-h1">ATS vs CRM: the distinction clients get wrong, and why it costs them money.</h1>
-    <p class="rt-lede">This is the question you will be asked more than any other. Get the plain-English version so clean you can say it in one breath, because you will need to say it to a CFO who is looking at two invoices and wondering why.</p>
+    <h1 class="rt-h1">ATS and CRM: the difference, and why it matters</h1>
+    <p class="rt-lede">You will be asked this more than any other question. Learn to explain it in one simple sentence — because one day a finance director will ask you why he is paying two bills instead of one.</p>
 
     <div class="rt-card">
       <h4>The one-breath version</h4>
@@ -468,14 +490,14 @@
         data-question="An agency owner is unhappy with Bullhorn, but signed a 24-month renewal four months ago. He asks what he should move to. What do you say?"
         data-options='["Recommend Crelate — the modern interface will fix the adoption complaints.","Tell him nothing can be done for 20 months.","Point out that a switch is off the table for 20 months, and ask what he would need to change about how the team uses Bullhorn to make it tolerable.","Suggest he run both systems in parallel until the contract lapses."]'
         data-answer="2"
-        data-why="The constraint is real and you should name it plainly rather than pretending it away — but naming a constraint is not the same as surrendering to it. Answer 1 sells him something he cannot buy, which wastes his time and torches your credibility the moment he remembers the contract. Answer 2 is honest and useless. Answer 3 wastes money on two systems and doubles the data mess. Answer 2 (index) — reframing from “which product“ to “which behaviour“ — is the consultative move, and it also happens to be where his actual problem lives."></div>
+        data-why="The constraint is real and you should name it plainly rather than pretending it away — but naming a constraint is not the same as surrendering to it. Answer 1 sells him something he cannot buy, which wastes his time and torches your credibility the moment he remembers the contract. Answer 2 is honest and useless. Answer 3 wastes money on two systems and doubles the data mess. Answer 2 (index) — reframing from “which product” to “which behaviour” — is the consultative move, and it also happens to be where his actual problem lives."></div>
     </div>` });
 
   /* ---------- 03 ---------- */
   M.push({ g:'a', kind:'Module', name:'03 · Find & AI', time:'17:45', html: `
     <div class="rt-eyebrow">Module 03 · Layer 02, Find</div>
-    <h1 class="rt-h1">Sourcing and AI: what the machine actually does, and where it quietly lies.</h1>
-    <p class="rt-lede">You will be asked about AI in roughly every client call for the next three years. Most of those clients will be asking out of anxiety, not curiosity. Knowing the mechanics lets you calm them down instead of joining in.</p>
+    <h1 class="rt-h1">Sourcing and AI: what it really does, and what it cannot do</h1>
+    <p class="rt-lede">Almost every client will ask you about AI. Most of them are asking because they are worried their competitors are ahead, not because they want the technical details. If you understand how it works, you can calm them down.</p>
 
     <h2 class="rt-h2">Three generations of search, in plain terms</h2>
     <div class="rt-card">
@@ -509,7 +531,7 @@
     <div class="rt-do" data-mcq='1'>
       <div class="rt-do-head"><span class="tag">Check</span><span class="ttl">Knowledge check 03</span></div>
       <div class="rt-do-body" data-q="m3"
-        data-question="A client says: “Your AI tool will just give me the same LinkedIn profiles I already have.“ Which response is strongest?"
+        data-question="A client says: “Your AI tool will just give me the same LinkedIn profiles I already have.” Which response is strongest?"
         data-options='["“No — our database is completely different from LinkedIn.”","“You’re partly right. There’s heavy overlap in who exists. What changes is how long it takes you to get to the ten worth calling, and whether you can reach them without an InMail. Shall we test it on a role you’re stuck on?”","“AI is the future of recruiting, so you’ll need to adapt eventually.”","“Our tool uses semantic search with vector embeddings across 800 million profiles.”"]'
         data-answer="1"
         data-why="Answer 1 (index) concedes the true part immediately, which buys you the right to be believed on the rest, then re-anchors to the metric that pays him — time to the ten worth calling — and ends with a low-cost test rather than a purchase. Answer 0 is a lie he can disprove in one search. Answer 2 is condescension dressed as insight. Answer 3 answers a question he did not ask, in a language he does not speak, and is what most junior tech people do when they feel attacked."></div>
@@ -518,8 +540,8 @@
   /* ---------- 04 ---------- */
   M.push({ g:'a', kind:'Module', name:'04 · Reach', time:'18:00', html: `
     <div class="rt-eyebrow">Module 04 · Layer 03, Reach</div>
-    <h1 class="rt-h1">Outreach: why response rates fall, and why a sequencing tool is not the cure.</h1>
-    <p class="rt-lede">Every agency on earth reports the same trend — response rates were 20-something percent, now they're single digits. Clients believe this is a tooling problem. It is arithmetic and it is copy.</p>
+    <h1 class="rt-h1">Why candidates stopped replying — and why a tool will not fix it</h1>
+    <p class="rt-lede">Every agency reports the same thing: about 20% of candidates used to reply, now fewer than 10% do. Clients think they need better software. Usually they need fewer, better messages.</p>
 
     <h2 class="rt-h2">What SourceWhale-class tools actually do</h2>
     <ul>
@@ -546,13 +568,13 @@
         data-question="Meridian’s candidate response rate dropped from 22% to 9%. The owner wants to buy a sequencing tool. What is the most consultative response?"
         data-options='["Sell the sequencing tool — more touches will mechanically lift replies.","Ask to see the last ten outreach messages his team actually sent, before recommending anything.","Tell him response rates are down industry-wide and there is nothing to be done.","Recommend switching ATS, since the outreach is logged there."]'
         data-answer="1"
-        data-why="You cannot diagnose an outreach problem without reading the outreach. Nine times out of ten those ten messages are near-identical templates that open with “I came across your profile and was impressed.“ A sequencing tool applied to that copy multiplies the damage and puts the client’s domain reputation at risk. Answer 0 might still be right eventually — but recommending it before reading the messages means you got lucky, not that you were competent. Answer 2 is defeatism and answer 3 is a non sequitur that reveals you are pattern-matching to products."></div>
+        data-why="You cannot diagnose an outreach problem without reading the outreach. Nine times out of ten those ten messages are near-identical templates that open with “I came across your profile and was impressed.” A sequencing tool applied to that copy multiplies the damage and puts the client’s domain reputation at risk. Answer 0 might still be right eventually — but recommending it before reading the messages means you got lucky, not that you were competent. Answer 2 is defeatism and answer 3 is a non sequitur that reveals you are pattern-matching to products."></div>
     </div>` });
 
   /* ---------- 05 ---------- */
   M.push({ g:'a', kind:'Module', name:'05 · Assess & split', time:'18:15', html: `
     <div class="rt-eyebrow">Module 05 · Layers 04 &amp; 05</div>
-    <h1 class="rt-h1">Interview intelligence and collaboration: the two layers clients underestimate.</h1>
+    <h1 class="rt-h1">Recording interviews, and working with other agencies</h1>
 
     <h2 class="rt-h2">Metaview and the recording layer</h2>
     <p>The pitch is simple: it joins the interview, transcribes it, and produces structured notes and a summary. The recruiter stops typing and starts listening. Four real benefits, in the order a client cares about them:</p>
@@ -581,9 +603,9 @@
 
   /* ---------- 06 ---------- */
   M.push({ g:'a', kind:'Module', name:'06 · The boring 80%', time:'18:30', html: `
-    <div class="rt-eyebrow">Module 06 · Where deals actually die</div>
-    <h1 class="rt-h1">Adoption, data, integrations, pricing. None of it is exciting. All of it decides the outcome.</h1>
-    <p class="rt-lede">Demos are won on features. Accounts are lost on the four things below. If you learn only one module tonight properly, learn this one — it is where you will be most useful and it is what nobody else on the call will be thinking about.</p>
+    <div class="rt-eyebrow">Module 06 · Where things go wrong</div>
+    <h1 class="rt-h1">The four boring things that decide whether it works</h1>
+    <p class="rt-lede">Software is chosen because of its features. It fails because of the four things below. If you learn one module properly tonight, learn this one — nobody else on the call will be thinking about any of it.</p>
 
     <h2 class="rt-h2">1. Adoption beats features, always</h2>
     <p>The best tool nobody logs into is worth less than the mediocre tool everyone uses. When a client says <em>"we bought an ATS and nobody used it,"</em> the software was almost never the cause. The causes are: no one owned it, nothing was mandatory, the old way still worked, and the top biller was allowed to opt out — at which point everyone learned it was optional.</p>
@@ -591,10 +613,10 @@
       "When your best recruiter doesn't log an activity — what happens?" If the answer is "nothing," you have found the problem, and it is not for sale.
     </div>
 
-    <h2 class="rt-h2">2. Data hygiene — garbage in, fiction out</h2>
+    <h2 class="rt-h2">2. Data quality — bad data in, false reports out</h2>
     <p><strong>Parsing</strong> reads a CV and drops it into fields. It is imperfect and always has been. <strong>Duplicates</strong> accumulate until one candidate exists four times and nobody knows which record is real. <strong>Free-text fields</strong> feel flexible and destroy reporting — you cannot count a field where five people typed the same status five ways. An owner who says <em>"I'm not sure the data is real"</em> is telling you his reporting layer is decorative.</p>
 
-    <h2 class="rt-h2">3. Integrations — where timelines go to die</h2>
+    <h2 class="rt-h2">3. Integrations — where the delays come from</h2>
     <p>Native integration means the vendor built and maintains it; it works. Middleware means a third party holds it together. API means someone is writing code, and "we have an API" is what a vendor says when the integration does not exist. <strong>The question to ask in every demo:</strong> "Is that native, or does someone have to build it — and who fixes it when it breaks at 2am?"</p>
 
     <h2 class="rt-h2">4. Pricing — read the shape, not the number</h2>
@@ -611,7 +633,7 @@
     <div class="rt-do" data-mcq='1'>
       <div class="rt-do-head"><span class="tag">Check</span><span class="ttl">Knowledge check 06</span></div>
       <div class="rt-do-body" data-q="m6"
-        data-question="A client tells you: “We bought an ATS two years ago and nobody used it.“ What is the most useful thing to conclude?"
+        data-question="A client tells you: “We bought an ATS two years ago and nobody used it.” What is the most useful thing to conclude?"
         data-options='["They chose the wrong ATS and need a better one.","Their recruiters are difficult and need replacing.","Whatever we recommend will fail the same way unless something changes about ownership, mandate and consequence — and that’s the conversation to have first.","ATS software generally has poor usability."]'
         data-answer="2"
         data-why="This client just handed you a free prediction about your own project, and most people ignore it because it is inconvenient. Selling him a second ATS into the same conditions produces a second failure — except this time your name is on it. Answer 2 (index) treats the past failure as the most valuable piece of evidence in the room and converts a product conversation into a change conversation. That is the exact difference between a vendor and a consultant."></div>
@@ -620,7 +642,7 @@
   /* ---------- 07 ---------- */
   M.push({ g:'a', kind:'Module', name:'07 · The frame', time:'18:40', html: `
     <div class="rt-eyebrow">Module 07 · How to run the call</div>
-    <h1 class="rt-h1">The consultative frame: ask, isolate, reframe, evidence, return.</h1>
+    <h1 class="rt-h1">How to run the call: ask first, suggest later</h1>
 
     <h2 class="rt-h2">Discovery: the chain</h2>
     <p>Every good discovery call walks the same five links. Miss one and your recommendation is a guess.</p>
@@ -667,10 +689,10 @@
   /* ---------- 08 ---------- */
   M.push({ g:'a', kind:'Module', name:'08 · Translation', time:'18:50', html: `
     <div class="rt-eyebrow">Module 08 · Language</div>
-    <h1 class="rt-h1">The translation table. Left column loses the room. Right column keeps it.</h1>
-    <p class="rt-lede">Nobody buys the left column. Learn to hear yourself saying it and stop mid-sentence.</p>
+    <h1 class="rt-h1">How to say it so a client understands</h1>
+    <p class="rt-lede">Nobody buys what is written in the left column. Learn to notice when you are saying it, and stop yourself.</p>
     <table class="rt-table">
-      <tr><th>What you will be tempted to say</th><th>What the client hears and acts on</th></tr>
+      <tr><th>What you might say</th><th>What to say instead</th></tr>
       <tr><td>"Semantic search with vector embeddings"</td><td>"It finds people who do the job even when they call it something else"</td></tr>
       <tr><td>"Multi-channel automated sequencing"</td><td>"It chases people for you, so your team stops forgetting the fourth follow-up — which is where the placements are"</td></tr>
       <tr><td>"Resume parsing accuracy"</td><td>"How much retyping your team does per CV"</td></tr>
@@ -692,51 +714,75 @@
   /* ---------- DRILL A ---------- */
   M.push({ g:'b', kind:'Drill', name:'A · Translate it', time:'19:15', html: `
     <div class="rt-eyebrow">Drill A · Timed · 90 seconds per item</div>
-    <h1 class="rt-h1">Translate it. Ninety seconds each. The clock does not care.</h1>
-    <p class="rt-lede">Each item gives you a technical statement and a specific human. Rewrite it so that human acts on it. When the clock stops, the box locks with whatever is in it — which is exactly what happens on a call.</p>
-    <div class="rt-pull"><span class="lbl">Scored on</span>Jargon control · persona adaptation · leading with the client's cost, risk or time · whether a real human would understand it on first hearing.</div>
+    <h1 class="rt-h1">Say it in simple words</h1>
+    <p class="rt-lede">You get five items. Each one shows you a difficult, technical sentence and tells you who you are talking to. Your job: say the same thing in words that person would understand.</p>
+    <div class="rt-card">
+      <h4>How it works</h4>
+      <ul>
+        <li>You have <strong>90 seconds</strong> for each item.</li>
+        <li>Press <strong>Start clock</strong> when you are ready. Nothing starts until you do.</li>
+        <li>When the time ends, the box locks. Whatever you have written is your answer.</li>
+        <li>You cannot go back and improve it. On a real call, you also cannot.</li>
+      </ul>
+    </div>
+    <div class="rt-pull"><span class="lbl">What Rubab is looking for</span>Did you remove the difficult words? Did you change your answer to suit the person? Did you tell them what it costs them, saves them, or risks for them? Would this person understand you the first time they heard it?</div>
     <div id="rt-drillA"></div>` });
 
   /* ---------- DRILL B ---------- */
   M.push({ g:'b', kind:'Drill', name:'B · Discovery', time:'19:45', html: `
     <div class="rt-eyebrow">Drill B · 12 minutes</div>
-    <h1 class="rt-h1">Build the discovery call.</h1>
+    <h1 class="rt-h1">Plan your first call with a client</h1>
+    <p class="rt-lede">A “discovery call” is the first call, where you ask questions to find out what is really wrong. You are not selling anything. You are trying to understand the problem.</p>
     <div class="rt-card">
       <h4>The situation</h4>
       <p><strong>Tom Brennan</strong>, owner, 14-person perm agency, Dallas. Accounting and finance placements. He has agreed to a 25-minute call. All you have been told is: <em>"He's unhappy with his tooling."</em></p>
-      <p>He is impatient. He interrupts. He will ask you what to buy within three minutes.</p>
+      <p>He is in a hurry. He cuts people off. Within three minutes he will ask you which tool he should buy — before you know anything about his business.</p>
     </div>
     <div id="rt-drillB"></div>` });
 
   /* ---------- DRILL C ---------- */
   M.push({ g:'b', kind:'Drill', name:'C · Objections', time:'20:20', html: `
     <div class="rt-eyebrow">Drill C · Rapid fire · 45 seconds each · 10 objections</div>
-    <h1 class="rt-h1">Objection rapid fire. Forty-five seconds. No re-reading, no going back.</h1>
-    <p class="rt-lede">This is deliberately faster than is comfortable. It auto-advances. Two of these are personal attacks — those are the ones being watched most closely, so notice what your hands do.</p>
-    <div class="rt-pull"><span class="lbl">Structure, if you need one</span>Acknowledge → Isolate → Reframe → one piece of evidence → question back. Under pressure most people skip straight to arguing. Don't.</div>
+    <h1 class="rt-h1">Answering difficult questions, fast</h1>
+    <p class="rt-lede">An “objection” is when a client tells you why they do not want to buy, or do not believe you. Ten of them are coming. You get 45 seconds for each, then the next one appears automatically.</p>
+    <div class="rt-card">
+      <h4>This is meant to feel too fast</h4>
+      <p>Nobody finishes these comfortably, and you are not expected to. Rubab is watching how you stay calm and think, not how perfect the sentences are.</p>
+      <p>Two of the ten are personal — about you, not the product. Those are normal on real calls. Notice how you feel when they arrive.</p>
+    </div>
+    <div class="rt-pull"><span class="lbl">A simple order to follow</span>
+      <strong>1. Agree with the true part.</strong> “You are right that…”<br>
+      <strong>2. Check it is the real problem.</strong> “Is it only the price, or is there something else?”<br>
+      <strong>3. Change the angle.</strong> Talk about the cost of doing nothing.<br>
+      <strong>4. Give one fact.</strong> One only.<br>
+      <strong>5. Ask a question back.</strong><br>
+      When people feel attacked, they skip straight to arguing. Try not to.</div>
     <div id="rt-drillC"></div>` });
 
   /* ---------- DRILL D ---------- */
   M.push({ g:'b', kind:'Drill', name:'D · Teardown', time:'20:50', html: `
     <div class="rt-eyebrow">Drill D · 20 min research, then this</div>
-    <h1 class="rt-h1">Tool teardown. Tell me why I shouldn't buy it.</h1>
+    <h1 class="rt-h1">Learn a new tool, then find its weak points</h1>
+    <p class="rt-lede">Every website tells you why its product is good. Your job today is the opposite: find what it is <em>not</em> good at.</p>
     <div class="rt-card">
       <h4>Instructions from Rubab</h4>
-      <p>You have <strong>20 minutes</strong> with the assigned product's public site and demo video. Rubab will name the product when the block starts — it will be one you have never opened.</p>
-      <p><strong>Then, with no additional prep:</strong> you do not sell it. You tell the panel the three genuine reasons a client should <em>not</em> buy it, and the type of firm it is honestly wrong for.</p>
+      <p>Rubab will tell you which product to study when this block starts. It will be one you have never used before.</p>
+      <p>You get <strong>20 minutes</strong> to look at its website and demo video. That is all.</p>
+      <p>Then, with no extra preparation time, you do <strong>not</strong> try to sell it. You explain three real reasons a client should not buy it, and describe the kind of company it would be wrong for.</p>
     </div>
-    <div class="rt-pull"><span class="lbl">Why it's built this way</span>Anyone can summarise a marketing site in twenty minutes. Only someone who actually understood the product can find its edges that fast — and finding the edges is what makes a client believe the rest of what you say.</div>
+    <div class="rt-pull"><span class="lbl">Why we do it this way</span>Anyone can repeat what a website says. Only someone who truly understood the product can find its limits in 20 minutes. And clients only believe your good points about a tool after they hear you admit its bad points.</div>
     <div id="rt-drillD"></div>` });
 
   /* ---------- DRILL E ---------- */
   M.push({ g:'b', kind:'Drill', name:'E · The case', time:'21:30', html: `
-    <div class="rt-eyebrow">Drill E · 45 minutes · this is the big one</div>
-    <h1 class="rt-h1">Meridian Talent Partners.</h1>
+    <div class="rt-eyebrow">Drill E · 45 minutes · the most important drill</div>
+    <h1 class="rt-h1">A real client problem: Meridian Talent Partners</h1>
+    <p class="rt-lede">Read the situation below, then answer the questions. There is no single correct answer. Rubab is reading <em>how you think</em>, not what you choose.</p>
     <div class="rt-card">
       <h4>The client</h4>
       <p>32 people, Chicago. Perm placements in healthcare and life sciences. Revenue ~$6M, flat for two years. Owner is 58 and sceptical. Nine of his eleven recruiters are under 30 and want new tools.</p>
       <p><strong>Current stack:</strong> PCRecruiter (5 years, heavily customised) · LinkedIn Recruiter, 8 seats · Gmail · a spreadsheet for commission tracking · one recruiter quietly using a personal ChatGPT subscription to write outreach.</p>
-      <p><strong>Symptoms he reports:</strong></p>
+      <p><strong>What the owner says is wrong:</strong></p>
       <ul>
         <li>Time-to-fill has crept from 28 to 41 days</li>
         <li>Two senior recruiters bill 60% of revenue; the other nine are barely above cost</li>
@@ -744,25 +790,26 @@
         <li>He "isn't sure the CRM data is real"</li>
         <li>A competitor just won a key client and he heard they "use AI"</li>
       </ul>
-      <p><strong>Constraints:</strong> $40K/year for new tooling · PCRecruiter contract has 14 months left · no IT staff.</p>
+      <p><strong>What limits you:</strong> he has $40,000 per year to spend on new tools · his PCRecruiter contract runs for another 14 months, so he cannot leave it · he has no IT staff to set anything up.</p>
     </div>
     <div id="rt-drillE"></div>` });
 
   /* ---------- DRILL F ---------- */
   M.push({ g:'b', kind:'Drill', name:'F · Curveball', time:'22:30', html: `
     <div class="rt-eyebrow">Drill F · 8 minutes to think · 8 minutes to answer</div>
-    <h1 class="rt-h1">The angry client.</h1>
+    <h1 class="rt-h1">An angry client</h1>
+    <p class="rt-lede">Three weeks ago this client took your advice and bought a tool. Now he is angry. Read what happened, then answer.</p>
     <div class="rt-card">
       <h4>The email, 6:40 PM your time</h4>
       <p><em>"Your recommended tool is not working. My recruiters say it's slower than what we had. I want to cancel and I want the implementation fee back. Call me."</em></p>
-      <h4 style="margin-top:14px">Two things you know that he doesn't</h4>
+      <h4 style="margin-top:14px">Two facts he does not know</h4>
       <ul>
-        <li>Only 3 of his 11 recruiters have completed onboarding.</li>
+        <li>Only 3 of his 11 recruiters finished the training. The other 8 never learned to use it.</li>
         <li>The "slowness" is his office network, not the tool.</li>
       </ul>
       <p style="margin-top:10px">He opens the call with: <em>"I'll be honest with you, I think we made a mistake trusting you people."</em></p>
     </div>
-    <div class="rt-pull rt-warn"><span class="lbl">The trap, stated plainly</span>You are right and he is wrong, and leading with that loses the account. Being right is not the job. Being right <em>and</em> keeping the client is the job. Where those two conflict, the second one pays your salary.</div>
+    <div class="rt-pull rt-warn"><span class="lbl">The difficult part</span>You are right and he is wrong. But if you start the call by proving that, you will win the argument and lose the client. Your job is not only to be right. Your job is to be right <em>and</em> keep him. When you cannot do both, keeping him matters more.</div>
     <div id="rt-drillF"></div>` });
 
   /* ---------- HAND IN ---------- */
@@ -931,11 +978,11 @@
       <div class="rt-do-body">
         <div class="rt-timer"><span class="num">--:--</span><span class="rt-bar"><i></i></span></div>
         ${cfg.promptHTML}
-        <textarea rows="${cfg.rows || 4}" placeholder="${esc(cfg.placeholder || 'Start typing. The clock is running.')}" disabled></textarea>
+        <textarea rows="${cfg.rows || 4}" placeholder="${esc(cfg.placeholder || 'Type your answer here. The clock is running.')}" disabled></textarea>
         <div class="rt-count"><span class="w">0 words</span><span class="st">Not started</span></div>
         <div class="rt-actions">
           <button class="rt-btn solid go">Start clock</button>
-          <button class="rt-btn ghost lock" style="border-color:var(--rule);color:var(--ink)" disabled>Lock it in</button>
+          <button class="rt-btn ghost lock" style="border-color:var(--rule);color:var(--ink)" disabled>I'm done — submit</button>
         </div>
       </div>`;
     host.appendChild(el);
@@ -965,15 +1012,15 @@
       if (running) return;
       running = true; ta.disabled = false; ta.focus(); go.disabled = true; lock.disabled = false;
       st.textContent = 'Running'; st.className = 'st';
-      timer = setInterval(() => { left--; paint(); if (left <= 0) stop('Time. Locked.'); }, 1000);
+      timer = setInterval(() => { left--; paint(); if (left <= 0) stop('Time is up. Your answer is saved.'); }, 1000);
     };
-    lock.onclick = () => stop('Locked early — ' + num.textContent + ' unused.');
+    lock.onclick = () => stop('Submitted with ' + num.textContent + ' still on the clock.');
     ta.addEventListener('input', () => {
       LOG.answers[cfg.key] = ta.value;
       const n = ta.value.trim() ? ta.value.trim().split(/\s+/).length : 0;
       wc.textContent = n + (n === 1 ? ' word' : ' words');
     });
-    if (LOG.answers[cfg.key]) { ta.value = LOG.answers[cfg.key]; stop('Already submitted'); }
+    if (LOG.answers[cfg.key]) { ta.value = LOG.answers[cfg.key]; stop('Already answered'); }
     return el;
   }
 
@@ -982,9 +1029,9 @@
     DRILL_A.forEach((d, i) => {
       timedItem(host, {
         key: 'A' + (i + 1), seconds: 90, tag: 'Item ' + (i + 1) + '/5',
-        title: 'Say this to: ' + d.p,
-        promptHTML: `<div class="rt-pull"><span class="lbl">The sentence you were handed</span>${esc(d.s)}</div>`,
-        placeholder: 'Rewrite it for this person. Plain words. Lead with what it costs them or saves them.',
+        title: 'Explain this to: ' + d.p,
+        promptHTML: `<div class="rt-pull"><span class="lbl">The difficult sentence</span>${esc(d.s)}</div>`,
+        placeholder: 'Write it the way you would say it out loud to this person. Simple words. Start with what it means for them.',
         rows: 3
       });
     });
@@ -996,16 +1043,16 @@
     el.innerHTML = `
       <div class="rt-do-head"><span class="tag">Build</span><span class="ttl">Your call plan</span></div>
       <div class="rt-do-body">
-        <label class="fld">Pick the five questions you will actually ask, in order. Choose carefully — you get 25 minutes and he interrupts.</label>
+        <label class="fld">Choose the five questions you will ask. You only get 25 minutes with him, and he interrupts, so five is all you will really get. Click to select.</label>
         <div class="rt-chiprow" id="rt-bq"></div>
         <label class="fld" for="rt-b1">Write your opening. First 20 seconds, word for word.</label>
-        <textarea id="rt-b1" rows="3" data-log="B_open" placeholder="He knows nothing about you. You are three minutes late."></textarea>
+        <textarea id="rt-b1" rows="3" data-log="B_open" placeholder="Write the exact words you would say. He has never met you, and you joined the call three minutes late."></textarea>
         <label class="fld" for="rt-b2">Minute 3, he says: "Look, I don't have long. What do you recommend?" — you have named no product yet. Word for word.</label>
-        <textarea id="rt-b2" rows="3" data-log="B_push" placeholder="Careful. This is the whole drill."></textarea>
+        <textarea id="rt-b2" rows="3" data-log="B_push" placeholder="Think before you answer. You still do not know what his problem is. This is the most important answer on this page."></textarea>
         <label class="fld" for="rt-b3">Minute 18: "You haven't recommended anything yet. Is this how all your calls go?"</label>
         <textarea id="rt-b3" rows="3" data-log="B_press" placeholder=""></textarea>
         <label class="fld" for="rt-b4">Minute 25: "So — what happens next?"</label>
-        <textarea id="rt-b4" rows="2" data-log="B_close" placeholder="Specific. Owned. Dated."></textarea>
+        <textarea id="rt-b4" rows="2" data-log="B_close" placeholder="Say exactly what you will do, by which day, and what you need from him."></textarea>
       </div>`;
     host.appendChild(el);
     const Q = [
@@ -1043,7 +1090,7 @@
       if (i >= DRILL_C.length) {
         const d = document.createElement('div');
         d.className = 'rt-pull';
-        d.innerHTML = '<span class="lbl">Done</span>Ten for ten. Go and tell Rubab which one made your stomach drop — that answer is worth as much as the ten you just typed.';
+        d.innerHTML = '<span class="lbl">Finished</span>All ten done. Now go and tell Rubab which one was the hardest for you, and why. Being able to say that honestly matters as much as the ten answers you just wrote.';
         shell.appendChild(d);
         return;
       }
@@ -1051,8 +1098,8 @@
       timedItem(shell, {
         key: 'C' + n, seconds: 45, tag: n + '/10',
         title: 'Objection ' + n,
-        promptHTML: `<div class="rt-pull rt-warn"><span class="lbl">Client says</span>“${esc(DRILL_C[i])}”</div>`,
-        placeholder: 'Forty-five seconds. Acknowledge first.',
+        promptHTML: `<div class="rt-pull rt-warn"><span class="lbl">The client says to you</span>“${esc(DRILL_C[i])}”</div>`,
+        placeholder: 'Write what you would say out loud. Agree with the true part first.',
         rows: 3,
         onDone: () => { i++; setTimeout(next, 400); }
       }).scrollIntoView({ block: 'center', behavior: 'smooth' });
@@ -1070,14 +1117,14 @@
         <input type="text" id="rt-d0" data-log="D_product" placeholder="Rubab will tell you at 20:50">
         <label class="fld" for="rt-d1">In one sentence: what problem does it solve, and for whom?</label>
         <textarea id="rt-d1" rows="2" data-log="D_what"></textarea>
-        <label class="fld" for="rt-d2">Three genuine reasons a client should NOT buy it</label>
-        <textarea id="rt-d2" rows="5" data-log="D_against" placeholder="1.&#10;2.&#10;3.&#10;&#10;Marketing-site paraphrase does not count. These need to be real."></textarea>
+        <label class="fld" for="rt-d2">Three real reasons a client should NOT buy it</label>
+        <textarea id="rt-d2" rows="5" data-log="D_against" placeholder="1.&#10;2.&#10;3.&#10;&#10;Do not copy the website. Think about price, difficulty, who has to maintain it, or what it cannot do."></textarea>
         <label class="fld" for="rt-d3">Who is it honestly wrong for? Describe the firm.</label>
         <textarea id="rt-d3" rows="2" data-log="D_nonfit"></textarea>
-        <label class="fld" for="rt-d4">The one question you'd need the vendor to answer before you'd let a client of yours sign</label>
+        <label class="fld" for="rt-d4">One question you would ask the company that makes it, before letting your client sign the contract</label>
         <textarea id="rt-d4" rows="2" data-log="D_vendorq"></textarea>
-        <label class="fld" for="rt-d5">What did you NOT understand in the last 20 minutes? Be specific.</label>
-        <textarea id="rt-d5" rows="3" data-log="D_gaps" placeholder="“Everything was clear“ is not an answer anyone believes. Name the thing you skimmed."></textarea>
+        <label class="fld" for="rt-d5">What did you NOT understand in the last 20 minutes?</label>
+        <textarea id="rt-d5" rows="3" data-log="D_gaps" placeholder="Nobody understands everything in 20 minutes, and saying so does not lose you marks here. Name the part you skipped or could not follow."></textarea>
       </div>`;
     host.appendChild(el);
     bindLogged(el);
@@ -1089,17 +1136,17 @@
     el.innerHTML = `
       <div class="rt-do-head"><span class="tag">Case</span><span class="ttl">Meridian — your working</span></div>
       <div class="rt-do-body">
-        <label class="fld" for="rt-e1">Sort the five symptoms. Which are tooling problems and which are people or process problems?</label>
+        <label class="fld" for="rt-e1">Look at the five things he says are wrong. Which ones could software fix, and which ones are really about people or the way they work?</label>
         <textarea id="rt-e1" rows="5" data-log="E_sort"></textarea>
         <label class="fld" for="rt-e2">What are you assuming right now that could be wrong?</label>
-        <textarea id="rt-e2" rows="3" data-log="E_assume" placeholder="Name at least two. Then say what would prove you wrong."></textarea>
+        <textarea id="rt-e2" rows="3" data-log="E_assume" placeholder="An assumption is something you believe but have not checked. Write at least two, and say what you would ask him to check if you are right."></textarea>
         <label class="fld" for="rt-e3">If you could only fix ONE symptom, which — and why that one over the others?</label>
         <textarea id="rt-e3" rows="3" data-log="E_one"></textarea>
-        <label class="fld" for="rt-e4">Where does the $40K go? Be specific, and stay inside the constraints.</label>
-        <textarea id="rt-e4" rows="4" data-log="E_spend" placeholder="Remember: 14 months left on PCRecruiter, no IT staff, sceptical 58-year-old owner."></textarea>
-        <label class="fld" for="rt-e5">What is the answer that makes BPO Wizard no money but is right for Meridian?</label>
-        <textarea id="rt-e5" rows="3" data-log="E_honest" placeholder="If you can't find one, look harder."></textarea>
-        <label class="fld" for="rt-e6">Slide 1 of your deck is the recommendation itself. Write it. One sentence, 40 words maximum.</label>
+        <label class="fld" for="rt-e4">How would you spend the $40,000? Be specific.</label>
+        <textarea id="rt-e4" rows="4" data-log="E_spend" placeholder="Remember the limits: 14 months left on his PCRecruiter contract, no IT staff, and an owner who does not trust new technology. You do not have to spend all of it."></textarea>
+        <label class="fld" for="rt-e5">Is there something you could advise that earns BPO Wizard nothing, but is the right thing for this client?</label>
+        <textarea id="rt-e5" rows="3" data-log="E_honest" placeholder="There is one. Keep thinking. Saying it out loud to a client is how you become someone they trust."></textarea>
+        <label class="fld" for="rt-e6">Tomorrow you will present this. Slide 1 must say what you recommend, in one sentence, in 40 words or fewer. Write that sentence now.</label>
         <textarea id="rt-e6" rows="2" data-log="E_slide1"></textarea>
         <div class="rt-count"><span class="w2">0 / 40 words</span><span></span></div>
       </div>`;
@@ -1117,20 +1164,20 @@
   function buildF(host) {
     timedItem(host, {
       key: 'F_open', seconds: 60, tag: 'Live',
-      title: 'Your first 60 seconds on that call',
+      title: 'The first 60 seconds of your reply',
       promptHTML: `<div class="rt-pull rt-warn"><span class="lbl">He has just said</span>“I'll be honest with you, I think we made a mistake trusting you people.”</div>`,
-      placeholder: 'Word for word. One minute.', rows: 4
+      placeholder: 'Write the exact words you would say to him. He is angry and he has just insulted your company.', rows: 4
     });
     const el = document.createElement('div');
     el.className = 'rt-do';
     el.innerHTML = `
       <div class="rt-do-head"><span class="tag">Then</span><span class="ttl">The rest of the call</span></div>
       <div class="rt-do-body">
-        <label class="fld" for="rt-f1">When and how do you deploy the two facts you know? Or don't you?</label>
+        <label class="fld" for="rt-f1">When do you tell him the two facts — at the start, later, or not at all? Explain your choice.</label>
         <textarea id="rt-f1" rows="3" data-log="F_facts"></textarea>
         <label class="fld" for="rt-f2">What part of this is genuinely your fault? Say it in the words you'd use to him.</label>
-        <textarea id="rt-f2" rows="3" data-log="F_own" placeholder="“Nothing“ is technically defensible and will cost you the account."></textarea>
-        <label class="fld" for="rt-f3">The recovery plan. Specific, dated, with a check-in you commit to.</label>
+        <textarea id="rt-f2" rows="3" data-log="F_own" placeholder="You could argue none of this is your fault. That answer is correct, and it will lose you the client. Look again."></textarea>
+        <label class="fld" for="rt-f3">Your plan to fix it. Say what you will do, by which date, and when you will call him back to check.</label>
         <textarea id="rt-f3" rows="4" data-log="F_plan"></textarea>
         <label class="fld" for="rt-f4">He asks for the implementation fee back. Answer him.</label>
         <textarea id="rt-f4" rows="3" data-log="F_fee"></textarea>
