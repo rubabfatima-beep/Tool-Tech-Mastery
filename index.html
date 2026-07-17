@@ -831,7 +831,7 @@
     <div class="rt-actions">
       <button class="rt-btn solid" id="rt-build">Build my transcript</button>
       <button class="rt-btn" id="rt-copy" disabled>Copy</button>
-      <button class="rt-btn ghost" style="border-color:var(--rule);color:var(--ink)" id="rt-dl" disabled>Download .md</button>
+      <button class="rt-btn ghost" style="border-color:var(--rule);color:var(--ink)" id="rt-dl" disabled>Download .doc</button>
       <span class="rt-note" id="rt-exp-note"></span>
     </div>
     <pre class="rt-out" id="rt-out" style="display:none"></pre>
@@ -1276,7 +1276,7 @@
         const url = URL.createObjectURL(blob);
         const a2 = document.createElement('a');
         a2.href = url;
-        a2.download = 'RecTech_Day1_' + (LOG.operator || 'candidate').replace(/\s+/g, '_') + '.md';
+        a2.download = 'RecTech_Day1_' + (LOG.operator || 'candidate').replace(/\s+/g, '_') + '.doc';
         a2.click(); URL.revokeObjectURL(url);
         pane.querySelector('#rt-exp-note').textContent = 'Downloaded.';
       };
